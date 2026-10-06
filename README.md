@@ -50,18 +50,18 @@ To run this project locally, ensure you have Node.js installed on your machine.
    cd fermor-homepage
    ```
 2. **Install dependencies:**
-```bash
-npm install
-
-```
+   ```bash
+   npm install
+   
+   ```
 
 
 *(Note: This project relies on `framer-motion`, `recharts`, and `lucide-react`)*
 3. **Start the development server:**
-```bash
-npm run dev
-
-```
+   ```bash
+   npm run dev
+   
+   ```
 
 
 4. **View the application:**
@@ -71,5 +71,3 @@ Open your browser and navigate to `http://localhost:5173/` (or the port provided
 
 * **Performance:** All heavy chart recalculations are wrapped in React's `useMemo` hooks to prevent unnecessary re-renders.
 * **Client-Side Only:** This application is entirely frontend-driven. All AI responses and API connections are simulated locally using React state and `useEffect` timeouts. No real financial data or personal credentials are collected or stored.
-
-```
