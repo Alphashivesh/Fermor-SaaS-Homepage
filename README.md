@@ -56,7 +56,7 @@ To run this project locally, ensure you have Node.js installed on your machine.
    ```
 
 
-*(Note: This project relies on `framer-motion`, `recharts`, and `lucide-react`)*
+   *(Note: This project relies on `framer-motion`, `recharts`, and `lucide-react`)*
 
 3. **Start the development server:**
    ```bash
