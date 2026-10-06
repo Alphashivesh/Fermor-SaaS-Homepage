@@ -50,7 +50,7 @@ export default function VideoModal() {
             {/* YouTube Embed (Replace YOUR_VIDEO_ID with your actual video ID) */}
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1"
+              src="https://www.youtube.com/watch?v=-vP_DDL_Ybo"
               title="Fermor Interactive Demo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
