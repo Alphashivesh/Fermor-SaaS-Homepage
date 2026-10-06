@@ -1,6 +1,6 @@
 # Fermor | AI-First Personal Finance Platform
 
-**Live Demo:** [https://fermor-saa-s-homepage.vercel.app/](https://fermor-saa-s-homepage.vercel.app/)
+**Live Demo:** [https://fermor-saa-s-homepage.vercel.app](https://fermor-saa-s-homepage.vercel.app)
 
 Fermor is an enterprise-grade SaaS landing page and interactive frontend application designed to showcase advanced product engineering, state-driven UI/UX, and complex data visualization. Built with React and Vite, it simulates the experience of a high-end personal finance platform powered by an intelligent, context-aware AI assistant.
 
@@ -48,8 +48,7 @@ To run this project locally, ensure you have Node.js installed on your machine.
    ```bash
    git clone <your-repository-url>
    cd fermor-homepage
-```
-  ```
+   ```
 2. **Install dependencies:**
 ```bash
 npm install
