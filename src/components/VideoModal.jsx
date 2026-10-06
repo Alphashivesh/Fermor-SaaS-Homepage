@@ -5,14 +5,12 @@ import { X } from 'lucide-react';
 export default function VideoModal() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Listen for the custom event to open the video
   useEffect(() => {
     const handleOpen = () => setIsOpen(true);
     window.addEventListener('open-video-modal', handleOpen);
     return () => window.removeEventListener('open-video-modal', handleOpen);
   }, []);
 
-  // Lock background scrolling when open
   useEffect(() => {
     if (isOpen) document.body.style.overflow = 'hidden';
     else document.body.style.overflow = 'unset';
@@ -47,13 +45,13 @@ export default function VideoModal() {
               <X size={20} />
             </button>
 
-            {/* YouTube Embed (Replace YOUR_VIDEO_ID with your actual video ID) */}
+            {/* GOOGLE DRIVE PREVIEW EMBED */}
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/watch?v=-vP_DDL_Ybo"
+              src="https://drive.google.com/file/d/1kRl0DQXdNxhuH8c4R1W92J9uLupgwKCW/preview"
               title="Fermor Interactive Demo"
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="autoplay"
               allowFullScreen
             ></iframe>
           </motion.div>
